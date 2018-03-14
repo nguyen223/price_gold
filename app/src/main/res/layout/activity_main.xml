@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appofmy.android.goldprice1.MainActivity"
+    android:orientation="vertical">
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#F44336"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/text_usdcurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:id="@+id/button_hiden"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <Button
+            android:background="#2196F3"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/buttun_usd"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="USD"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+        <Button
+            android:background="#FF9800"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/buttun_gbp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="GBP"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+        <Button
+            android:background="#795548"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/button_euro"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="EURO"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

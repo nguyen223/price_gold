@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">GOLD PRICE LBMA-OPEC</string>
+    <string name="opec_price">Website OPEC</string>
+    <string name="open_oil">OIL PRICE OPEC</string>
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+ if no specific kilometer distance from the primary location is given [CHAR LIMIT=30] -->
+    <string name="near_the">Near the</string>
+    <!-- Text to display in the list when there are no earthquakes [CHAR LIMIT=NONE] -->
+    <string name="no_earthquakes">No price gold found.</string>
+    <string name="no_priceOil">No price oil found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_conection">No internet conection.</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!--Setting char-->
+    <string name="cher_settings">Chart</string>
+    <string name="website_lbma">Website LBMA</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Gold Price Settings</string>
+    <!-- Strings For Minimum Magnitude Preference [CHAR LIMIT=30] -->
+    <string name="settings_min_magnitude_label">Gold number of dates</string>
+    <string name="settings_min_magnitude_key" translatable="false">number of dates</string>
+    <string name="settings_min_magnitude_default" translatable="false">30</string>
+    <!--String label number day 2-->
+    <string name="settings_min_magnitude_label1">Oil number of dates</string>
+    <string name="settings_min_magnitude_key1" translatable="false">number of dates1</string>
+    <string name="settings_min_magnitude_default1" translatable="false">30</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-2412212227127633/5386366703</string>
+    <string name="banner_ad_unit_id_2">ca-app-pub-2412212227127633/4237619688</string>
+    <string name="cacolator">Calculate</string>
+    <string name="currency_exchange">Currency Exchange</string>
+    <string name="update_pro">Upgrade Pro</string>
+    <string name="no_currency_exchenge">No exchange rates found.</string>
+    <string name="currency_conversion">CURRENCY CONVERSION</string>
+    <string name="exchange_rates">EXCHANGE RATES</string>
+    <!--List currency code-->
+    <string name="AUD">AUD "\n"(Australian Dollar)</string>
+    <string name="BGN">BGN "\n"(Bulgarian Lev)</string>
+    <string name="BRL">BRL "\n"(Brazilian Real)</string>
+    <string name="CAD">CAD "\n"(Canadian Dollar)</string>
+    <string name="CHF">CHF "\n"(Swiss Franc)</string>
+    <string name="CNY">CNY "\n"(Chinese Yuan)</string>
+    <string name="CZK">CZK "\n"(Czech Republic Koruna)</string>
+    <string name="DKK">DKK "\n"(Danish Krone)</string>
+    <string name="GBP">GBP "\n"(British Pound Sterling)</string>
+    <string name="HKD">HKD "\n"(Hong Kong Dollar)</string>
+    <string name="HRK">HRK "\n"(Croatian Kuna)</string>
+    <string name="HUF">HUF "\n"(Hungarian Forint)</string>
+    <string name="IDR">IDR "\n"(Indonesian Rupiah)</string>
+    <string name="ILS">ILS "\n"(Israeli New Sheqel)</string>
+    <string name="INR">INR "\n"(Indian Rupee)</string>
+    <string name="JPY">JPY "\n"(Japanese Yen)</string>
+    <string name="KRW">KRW "\n"(South Korean Won)</string>
+    <string name="MXN">MXN "\n"(Mexican Peso)</string>
+    <string name="MYR">MYR "\n"(Malaysian Ringgit)</string>
+    <string name="NOK">NOK "\n"(Norwegian Krone)</string>
+    <string name="NZD">NZD "\n"(New Zealand Dollar)</string>
+    <string name="PHP">PHP "\n"(Philippine Peso)</string>
+    <string name="PLN">PLN "\n"(Polish Zloty)</string>
+    <string name="RON">RON "\n"(Romanian Leu)</string>
+    <string name="RUB">RUB "\n"(Russian Ruble)</string>
+    <string name="SEK">SEK "\n"(Swedish Krona)</string>
+    <string name="SGD">SGD "\n"(Singapore Dollar)</string>
+    <string name="THB">THB "\n"(Thai Baht)</string>
+    <string name="TRY">TRY "\n"(Turkish Lira)</string>
+    <string name="ZAR">ZAR "\n"(South African Rand)</string>
+    <string name="EUR">EUR "\n"(Euro)</string>
+    <string name="USD">USD "\n"(United States Dollar)</string>
+
+
+</resources>

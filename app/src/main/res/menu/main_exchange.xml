@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appofmy.android.goldprice1.CurrencyActivity">
+    <item
+        android:id="@+id/calculate"
+        android:title="@string/cacolator"
+        android:icon="@drawable/icon_cacolator"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/exchange_curency"
+        android:title="@string/currency_exchange"
+        android:icon="@drawable/icon_exchange"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+</menu>

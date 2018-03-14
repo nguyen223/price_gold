@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Font sizes in SP -->
+    <dimen name="small_font">18sp</dimen>
+    <dimen name="big_font">22sp</dimen>
+</resources>

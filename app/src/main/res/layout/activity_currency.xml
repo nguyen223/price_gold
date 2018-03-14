@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.appofmy.android.goldprice1.CurrencyActivity">
+
+    <ListView
+        android:paddingTop="144dp"
+        android:id="@+id/list_currencyview"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/magnitude1"
+        android:dividerHeight="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <!-- Empty view is only visible when the list has no items. -->
+
+    <TextView
+        android:textColor="@color/magnitude1"
+        android:id="@+id/empty_view_currency"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/empty_view_currency"
+        android:id="@+id/image_refresh_currency"
+        android:src="@drawable/refresh_icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:background="#00BCD4"
+        android:id="@+id/euro_bank_title"
+        android:layout_marginTop="36dp"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+            <ImageView
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/euro_bank"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:textColor="@color/magnitude5"
+                android:paddingTop="8dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:id="@+id/bank_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="European Central Bank"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        tools:ignore="UselessParent">
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="@color/magnitude4"
+                            android:paddingLeft="8dp"
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Base:"
+                            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="@color/magnitude5"
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="USD"
+                            tools:ignore="HardcodedText" />
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/magnitude4"
+                        android:paddingLeft="8dp"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Currency name:"
+                        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                    <TextView
+                        android:textColor="#64FFDA"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="United States Dollar"
+                        tools:ignore="HardcodedText" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/magnitude5"
+                    android:textSize="16sp"
+                    android:paddingRight="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+                <TextView
+                    android:textColor="#64FFDA"
+                    android:id="@+id/date_currency"
+                    android:textSize="16sp"
+                    android:paddingRight="8dp"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/lbma_activity_currency"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:src="@drawable/lbma_gold"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:background="@color/colorPrimary"
+            android:id="@+id/exchange_activity_currency"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:src="@drawable/euro_bank"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/priceoil_activity"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:contentDescription=""
+            android:src="@drawable/opec_oil"
+            tools:ignore="ContentDescription" />
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_above="@+id/empty_view_currency"
+        android:src="@drawable/empty_internet"
+        android:id="@+id/empty_image_curreny"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/loading_currency"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

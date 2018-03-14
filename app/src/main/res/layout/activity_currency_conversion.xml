@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.appofmy.android.goldprice1.CurrencyConversion"
+    android:background="#8BC34A">
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:src="@drawable/exchange_currency"
+            android:layout_width="108dp"
+            android:layout_height="72dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="24sp"
+            android:text="CURRNCY CONVERSION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/date_hidecurrency"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="Date: "
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:textColor="#64FFDA"
+            android:textSize="18sp"
+            android:id="@+id/date_rates"
+            android:layout_marginLeft="40dp"
+            android:inputType="number"
+            android:hint="date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:text="Base: "
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <EditText
+            android:textColor="#64FFDA"
+            android:maxLength="15"
+            android:id="@+id/edittext_basic"
+            android:paddingRight="16dp"
+            android:inputType="number"
+            android:hint="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <!-- Gender drop-down spinner -->
+        <Spinner
+            android:id="@+id/spinner_gender"
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:paddingRight="8dp"
+            android:spinnerMode="dialog"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:paddingLeft="8dp"
+        android:textSize="24sp"
+        android:text="equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+        <LinearLayout
+            android:id="@+id/icon_hiden"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/icon_money"
+                android:textSize="16sp"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:src="@drawable/icon_money"
+                android:textSize="16sp"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:src="@drawable/icon_money"
+                android:textSize="16sp"
+                android:layout_width="40dp"
+                android:layout_height="48dp"
+                android:contentDescription=""
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/text_currency1"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:paddingRight="16dp"
+                android:inputType="number"
+                android:hint="number"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/text_currency2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:paddingRight="16dp"
+                android:inputType="number"
+                android:hint="number"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/text_currency3"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:paddingRight="16dp"
+                android:inputType="number"
+                android:hint="number"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!-- Gender drop-down spinner -->
+            <Spinner
+                android:id="@+id/currency_one"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="8dp"
+                android:spinnerMode="dialog"
+                tools:ignore="RtlHardcoded" />
+            <!-- Gender drop-down spinner -->
+            <Spinner
+
+                android:id="@+id/currency_two"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="8dp"
+                android:spinnerMode="dialog"
+                tools:ignore="RtlHardcoded" />
+            <!-- Gender drop-down spinner -->
+            <Spinner
+
+                android:id="@+id/currency_three"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="8dp"
+                android:spinnerMode="dialog"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:padding="8dp"
+            android:background="#D1C4E9"
+            android:id="@+id/button_clear"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="24sp"
+            android:text="Clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+        <Button
+            android:padding="8dp"
+            android:background="#D1C4E9"
+            android:id="@+id/button_exchange"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:textSize="24sp"
+            android:text="Exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:layout_marginTop="8dp"
+        android:id="@+id/av_banner_2"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appofmy.android.goldprice1.EarthquakeActivity">
+    <item
+        android:id="@+id/lbma_gold"
+        android:title="@string/website_lbma"
+        android:icon="@drawable/lbma_gold"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/char_settings_data"
+        android:title="@string/cher_settings"
+        android:icon="@drawable/chart_settings"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings_menu_item"
+        android:icon="@drawable/ic_filter"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+</menu>

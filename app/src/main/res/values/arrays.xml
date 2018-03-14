@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_currency_code">
+        <item>@string/AUD</item>
+        <item>@string/BGN</item>
+        <item>@string/BRL</item>
+        <item>@string/CAD</item>
+        <item>@string/CHF</item>
+        <item>@string/CNY</item>
+        <item>@string/CZK</item>
+        <item>@string/DKK</item>
+        <item>@string/GBP</item>
+        <item>@string/HKD</item>
+        <item>@string/HRK</item>
+        <item>@string/HUF</item>
+        <item>@string/IDR</item>
+        <item>@string/ILS</item>
+        <item>@string/INR</item>
+        <item>@string/JPY</item>
+        <item>@string/KRW</item>
+        <item>@string/MXN</item>
+        <item>@string/MYR</item>
+        <item>@string/NOK</item>
+        <item>@string/NZD</item>
+        <item>@string/PHP</item>
+        <item>@string/PLN</item>
+        <item>@string/RON</item>
+        <item>@string/RUB</item>
+        <item>@string/SEK</item>
+        <item>@string/SGD</item>
+        <item>@string/THB</item>
+        <item>@string/TRY</item>
+        <item>@string/ZAR</item>
+        <item>@string/EUR</item>
+        <item>@string/USD</item>
+
+    </string-array>
+</resources>

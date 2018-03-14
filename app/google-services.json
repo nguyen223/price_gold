@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "818162246916",
+    "firebase_url": "https://nguyenadmod.firebaseio.com",
+    "project_id": "nguyenadmod",
+    "storage_bucket": "nguyenadmod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818162246916:android:3b4e81da4bf8ab28",
+        "android_client_info": {
+          "package_name": "com.myapp.android.pricegold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818162246916-l0ai9cjsa9nt7ltdut65vdopcfm8g997.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myapp.android.pricegold",
+            "certificate_hash": "46a3cfcbf9d30cc8e040207a717209e5bab24638"
+          }
+        },
+        {
+          "client_id": "818162246916-fug8fug23hgne5f5m4g20bqpve7nnbek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJkitexlboXjbmAsvNEafOsVb_oiFjVz8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818162246916-fug8fug23hgne5f5m4g20bqpve7nnbek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

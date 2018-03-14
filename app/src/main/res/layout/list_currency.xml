@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66BB6A">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/flag_view"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/aud"
+        android:layout_width="96dp"
+        android:layout_height="88dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:ignore="RtlHardcoded">
+        <TextView
+            android:textColor="@color/magnitude5"
+            android:textStyle="bold"
+            android:id="@+id/codecurrency"
+            android:textSize="18sp"
+            android:text="AUD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:textColor="#64FFDA"
+            android:id="@+id/namecurrency"
+            android:textSize="18sp"
+            android:text="Australian Dollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+        <TextView
+            android:textColor="@color/magnitude5"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Rates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/value_currency"
+            android:textSize="18sp"
+            android:text="1.2626"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

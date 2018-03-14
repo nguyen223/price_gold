@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9E9D24"
+    android:orientation="vertical"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mange"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/magnitude_circle"
+            android:gravity="center"
+            android:src="@drawable/gold_dollar"
+            android:textColor="@android:color/white"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/location_offset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="London Bullion Markets Association "
+            android:textAllCaps="true"
+            android:textColor="@color/magnitude5"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <ImageView
+            android:layout_gravity="bottom"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_play_arrow_white_24dp"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment,RtlHardcoded">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/usd_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="USD"
+                android:textColor="@color/magnitude5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/usd_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567(USD)"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/usd_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                tools:text="0.00%(PM)" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/usd_am"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567(USD)"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/usd_percent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="14sp"
+                tools:text="0.00%(AM)" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/gbp_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="GBP"
+                android:textColor="@color/magnitude5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/gbp_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567USD"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/gbp_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                tools:text="0.00%(PM)" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/gbp_am"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567(USD)"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/gbp_percent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="14sp"
+                tools:text="0.00%(AM)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/euro_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="EUR"
+                android:textColor="@color/magnitude5"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/euro_pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567(USD)"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/euro_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                tools:text="0.00%(PM)" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/euro_am"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234567(USD)"
+                android:textSize="14sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:textStyle="italic"
+                android:id="@+id/euro_percent1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="14sp"
+                tools:text="0.00%(AM)" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity=""
+                android:text="Date:"
+                android:textColor="@color/magnitude5"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/date_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="Mar 6, 2010" />
+
+            <TextView
+                android:id="@+id/timeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Refreshed at:"
+                android:textColor="@color/magnitude5"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/timeView_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="2017-05-11" />
+
+            <TextView
+                android:id="@+id/timeView_value_h"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="16:50:27 UTC" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
